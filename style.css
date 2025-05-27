@@ -22,7 +22,7 @@ nav {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;      /* Allows wrapping on small screens */
-  gap: 0.5rem;          /* Space between links */
+  gap: 0.90rem;          /* Space between links */
   padding: 0.5rem 0;
 }
 
