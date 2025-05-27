@@ -1,7 +1,7 @@
 /* Reset basics */
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #F0EAD2; /* main body colour */
+  background-color: #FFF1CD; /* main body colour */
   color: #222;
   line-height: 1.6;
   margin: 0;
@@ -10,7 +10,7 @@ body {
 
 /* Header */
 header {
-  background-color: #CBDE96;  /* sage green header */
+  background-color: #AABF78;  /* sage green header */
   color: #000;
   padding: 1rem 0;
   text-align: center;
@@ -22,7 +22,7 @@ nav {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;      /* Allows wrapping on small screens */
-  gap: 0.90rem;          /* Space between links */
+  gap: 1rem;          /* Space between links */
   padding: 0.5rem 0;
 }
 
@@ -39,7 +39,7 @@ nav a:hover {
 
 /* Footer */
 footer {
-  background-color: #CBDE96; /* sage green footer */
+  background-color: #AABF78; /* sage green footer */
   color: #000;
   text-align: center;
   padding: 1rem;
@@ -48,7 +48,7 @@ footer {
 
 /* Content area */
 main {
-  max-width: 800px;
+  max-width: 1000px;
   margin: auto;
   padding: 2rem;
 }
@@ -66,7 +66,7 @@ a {
 /* Button styling (from Pico) */
 button,
 input[type="submit"] {
-  background-color: #CBDE96;
+  background-color: #AABF78;
   border: none;
   color: black;
   font-weight: 600;
