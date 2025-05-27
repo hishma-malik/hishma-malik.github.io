@@ -1,7 +1,7 @@
 /* Reset basics */
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #FFFDEB;
+  background-color: #F0EAD2; /* main body colour */
   color: #222;
   line-height: 1.6;
   margin: 0;
@@ -10,7 +10,7 @@ body {
 
 /* Header */
 header {
-  background-color: #CBDE96;
+  background-color: #CBDE96;  /* sage green header */
   color: #000;
   padding: 1rem 0;
   text-align: center;
@@ -39,7 +39,7 @@ nav a:hover {
 
 /* Footer */
 footer {
-  background-color: #A8CBB7;
+  background-color: #CBDE96; /* sage green footer */
   color: #000;
   text-align: center;
   padding: 1rem;
