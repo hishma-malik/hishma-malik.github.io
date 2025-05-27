@@ -77,3 +77,59 @@ input[type="submit"] {
 button:hover {
   background-color: #98bfa9;
 }
+
+/* Timeline layout for experience.html */
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+  margin-top: 2rem;
+  padding-left: 1.5rem;
+  border-left: 2px solid #AABF78; /* match your sage green */
+}
+
+.timeline-item {
+  position: relative;
+  padding-left: 1rem;
+}
+
+.timeline-date {
+  font-weight: bold;
+  color: #777;
+  margin-bottom: 0.25rem;
+  font-size: 0.95rem;
+}
+
+.timeline-content h3 {
+  margin: 0;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.timeline-content p {
+  margin: 0.2rem 0;
+}
+
+.timeline-content ul {
+  margin-top: 0.5rem;
+  padding-left: 1.2rem;
+  list-style-type: disc;
+}
+
+.timeline-content li {
+  margin-bottom: 0.4rem;
+  line-height: 1.5;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -1.2rem;
+  top: 0.3rem;
+  width: 0.75rem;
+  height: 0.75rem;
+  background-color: #AABF78;
+  border-radius: 50%;
+}
