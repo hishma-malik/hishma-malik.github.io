@@ -133,3 +133,30 @@ button:hover {
   background-color: #AABF78;
   border-radius: 50%;
 }
+
+/* Two-tone header layout */
+header {
+  padding: 0;
+  background-color: transparent; /* prevent double coloring */
+  text-align: center;
+}
+
+.page-title {
+  background-color: #762D2E;  /* 🎨 choose your second accent color */
+  padding: 1.2rem 0;
+}
+
+.page-title h1 {
+  font-size: 1.6rem;
+  margin: 0;
+  color: #222;
+}
+
+nav {
+  background-color: #AABF78;  /* your existing sage green */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0.6rem 0;
+}
