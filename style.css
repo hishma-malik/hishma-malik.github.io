@@ -23,7 +23,7 @@ nav {
   justify-content: center;
   flex-wrap: wrap;      /* Allows wrapping on small screens */
   gap: 1rem;          /* Space between links */
-  padding: 0.5rem 0;
+  padding: 0.6rem 0;
 }
 
 nav a {
@@ -148,11 +148,11 @@ header {
 }
 
 .page-title h1 {
+  color: ##FFF2D2;  /* optional: makes text pop on red */
   font-size: 1.6rem;
   margin: 0;
   padding: 0;
   line-height: 1.2;
-  color: ##FFF2D2;  /* optional: makes text pop on red */
 }
 
 
