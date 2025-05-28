@@ -142,18 +142,22 @@ header {
 }
 
 .page-title {
-  background-color: #762D2E;  /* 🎨 choose your second accent color */
+  background-color: #762D2E;  /* garnett red tone */
   padding: 1.2rem 0;
+  margin-top: 0;
 }
 
 .page-title h1 {
   font-size: 1.6rem;
   margin: 0;
-  color: #222;
+  padding: 0;
+  line-height: 1.2;
+  color: ##FFF2D2;  /* optional: makes text pop on red */
 }
 
+
 nav {
-  background-color: #AABF78;  /* your existing sage green */
+  background-color: #AABF78;  /* my existing sage green */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
