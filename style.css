@@ -148,7 +148,7 @@ header {
 }
 
 .page-title h1 {
-  color: ##FFF2D2; !important; /* optional: makes text pop on red */
+  color: ##FFF2D2; /* optional: makes text pop on red */
   font-size: 1.6rem;
   margin: 0;
   padding: 0;
