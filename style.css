@@ -55,12 +55,19 @@ main {
 }
 
 /* Headings */
-h1{
-  color: #FFF1CD;
+h1 {
+  color: #FFF1CD; /* Pale yellow for main page titles */
+  font-size: 1.6rem;
 }
 
-h2, h3 {
-  color: #222
+h2 {
+  color: #121212; /* Darker color for section titles */
+  font-size: 1.2rem;
+}
+
+h3 {
+  color: #444; /* Slightly lighter dark for sub-sections */
+  font-size: 1rem;
 }
 
 /* Links in text */
@@ -148,8 +155,8 @@ header {
 
 .page-title {
   background-color: #762D2E;  /* garnett red tone */
-  padding: 1.2rem 0;
-  margin-top: 0;
+  padding: 0.75rem 0;
+  margin: 0;
 }
 
 .page-title h1 {
@@ -168,4 +175,11 @@ nav {
   flex-wrap: wrap;
   gap: 1rem;
   padding: 0.6rem 0;
+}
+
+/* make a reusable class for small text for bodies - wrap any block of text u want to shrink in the html */
+.small-text {
+  font-size: 0.9rem;      /* smaller than the base size */
+  line-height: 1.5;       /* keeps it readable */
+  color: #222;            /* optional: text color */
 }
