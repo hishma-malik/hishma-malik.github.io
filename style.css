@@ -62,12 +62,12 @@ h1 {
 
 h2 {
   color: #121212; /* Darker color for section titles */
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 h3 {
   color: #444; /* Slightly lighter dark for sub-sections */
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 
 /* Links in text */
