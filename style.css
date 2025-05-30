@@ -55,8 +55,12 @@ main {
 }
 
 /* Headings */
-h1, h2, h3 {
+h1{
   color: #FFF1CD;
+}
+
+h2, h3 {
+  color: #222
 }
 
 /* Links in text */
